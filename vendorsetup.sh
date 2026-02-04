@@ -14,7 +14,7 @@ clone_if_missing() {
     fi
 }
 # Git clones
-clone_if_missing "https://github.com/JNWSG/Lineage_android_device_motorola_fogos.git" "16.2" "device/motorola/fogos"
+clone_if_missing "https://github.com/JNWSG/Lineage_android_device_motorola_fogos.git" "luna" "device/motorola/fogos"
 clone_if_missing "https://github.com/JNWSG/Lineage_android_device_motorola_sm6375-common.git" "16.2" "device/motorola/sm6375-common"
 clone_if_missing "https://github.com/JNWSG/Lineage_android_vendor_motorola_fogos.git" "16.2" "vendor/motorola/fogos"
 clone_if_missing "https://github.com/JNWSG/Lineage_android_vendor_motorola_sm6375-common.git" "16.2" "vendor/motorola/sm6375-common"
