@@ -20,6 +20,7 @@ ODM_MANIFEST_DN_FILES := $(DEVICE_PATH)/sku/manifest_dn.xml
 ODM_MANIFEST_N_FILES := $(DEVICE_PATH)/sku/manifest_n.xml
 
 # Kernel
+TARGET_KERNEL_VERSION += 5.4
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=fogos
 TARGET_KERNEL_CONFIG += vendor/ext_config/moto-holi-fogos.config
 
