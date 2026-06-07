@@ -20,6 +20,7 @@ ODM_MANIFEST_DN_FILES := $(DEVICE_PATH)/sku/manifest_dn.xml
 ODM_MANIFEST_N_FILES := $(DEVICE_PATH)/sku/manifest_n.xml
 
 # Kernel
+TARGET_KERNEL_VERSION += 5.4
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=fogos
 TARGET_KERNEL_CONFIG += vendor/ext_config/moto-holi-fogos.config
 
@@ -43,12 +44,12 @@ TARGET_RECOVERY_DENSITY := hdpi
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
 # Security
-BOOT_SECURITY_PATCH := 2026-03-01
+BOOT_SECURITY_PATCH := 2026-05-01
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
 # Verified Boot
-BOARD_AVB_ROLLBACK_INDEX := 28
-BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 28
+BOARD_AVB_ROLLBACK_INDEX := 30
+BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 30
 
 # inherit from the proprietary version
 include vendor/motorola/fogos/BoardConfigVendor.mk
