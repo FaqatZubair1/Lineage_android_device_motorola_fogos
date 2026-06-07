@@ -26,3 +26,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="fogos_g-user 15 V1UGS35H.75-14-3-7 2d75a-10fe5 release-keys MV-186" \
     BuildFingerprint=motorola/fogos_g/fogos:15/V1UGS35H.75-14-3-7/2d75a-10fe5:user/release-keys \
     DeviceProduct=fogos_g
+# Sakura flags
+SAKURA_OFFICIAL := false
+SAKURA_MAINTAINER := Agony
+SAKURA_BUILD_TYPE=basicgapps
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SCREEN_HEIGHT := 1600
+TARGET_SCREEN_WIDTH := 720
+TARGET_USES_BLUR := true
