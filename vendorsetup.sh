@@ -16,7 +16,7 @@ clone_if_missing() {
 # Git clones
 
 clone_if_missing "https://github.com/FaqatZubair1/Lineage_android_device_motorola_fogos.git" "voltage" "device/motorola/fogos"
-clone_if_missing "https://github.com/FaqatZubair1/Lineage_android_device_motorola_sm6375-common.git" "16.2" "device/motorola/sm6375-common"
+clone_if_missing "https://github.com/FaqatZubair1/Lineage_android_device_motorola_sm6375-common.git" "voltage" "device/motorola/sm6375-common"
 
 clone_if_missing "https://github.com/FaqatZubair1/Lineage_android_vendor_motorola_fogos.git" "16.2" "vendor/motorola/fogos"
 clone_if_missing "https://github.com/FaqatZubair1/Lineage_android_vendor_motorola_sm6375-common.git" "16.2" "vendor/motorola/sm6375-common"
