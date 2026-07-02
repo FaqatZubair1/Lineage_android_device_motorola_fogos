@@ -53,3 +53,5 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 30
 
 # inherit from the proprietary version
 include vendor/motorola/fogos/BoardConfigVendor.mk
+# Bypass kernel VINTF check for 5.4 kernel on Android 16
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
