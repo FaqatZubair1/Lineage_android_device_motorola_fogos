@@ -101,3 +101,5 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/fogos/fogos-vendor.mk)
+
+DEVICE_PACKAGE_OVERLAYS += device/motorola/fogos/overlay-voltage

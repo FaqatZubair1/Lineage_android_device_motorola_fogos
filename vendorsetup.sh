@@ -14,11 +14,10 @@ clone_if_missing() {
     fi
 }
 # Git clones
-clone_if_missing "git@github.com:missrais/android_device_motorola_sm6375-common.git" "lineage-23.2" "device/motorola/sm6375-common"
-clone_if_missing "git@github.com:missrais/proprietary_vendor_motorola_fogos.git" "lineage-23.2" "vendor/motorola/fogos"
-clone_if_missing "git@github.com:missrais/proprietary_vendor_motorola_sm6375-common.git" "lineage-23.2" "vendor/motorola/sm6375-common"
-clone_if_missing "git@github.com:missrais/android_kernel_motorola_sm6375.git" "lineage-23.2" "kernel/motorola/sm6375"
+clone_if_missing "git@github.com:missrais/android_device_motorola_sm6375-common.git" "vos" "device/motorola/sm6375-common"
+clone_if_missing "git@github.com:missrais/proprietary_vendor_motorola_fogos.git" "cnb" "vendor/motorola/fogos"
+clone_if_missing "git@github.com:missrais/proprietary_vendor_motorola_sm6375-common.git" "cnb" "vendor/motorola/sm6375-common"
+clone_if_missing "git@github.com:missrais/android_kernel_motorola_sm6375.git" "Benihime" "kernel/motorola/sm6375"
 # Additional repos
 clone_if_missing "https://github.com/LineageOS/android_hardware_motorola.git" "lineage-23.2" "hardware/motorola"
 clone_if_missing "https://github.com/LineageOS/android_hardware_samsung_slsi_nfc.git" "" "hardware/samsung_slsi/nfc"
-clone_if_missing "git@github.com:missrais/keys.git" "main" "vendor/priv-keys/keys"
