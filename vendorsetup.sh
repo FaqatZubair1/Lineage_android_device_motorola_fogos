@@ -30,10 +30,10 @@ replace_repo() {
 }
 
 # Git clones
-clone_if_missing "git@github.com:project-moon-gazer/android_device_motorola_sm6375-common.git" "vos" "device/motorola/sm6375-common"
-clone_if_missing "git@github.com:project-moon-gazer/proprietary_vendor_motorola_fogos.git" "cnb" "vendor/motorola/fogos"
-clone_if_missing "git@github.com:project-moon-gazer/proprietary_vendor_motorola_sm6375-common.git" "cnb" "vendor/motorola/sm6375-common"
-clone_if_missing "git@github.com:project-moon-gazer/android_kernel_motorola_sm6375.git" "Benihime" "kernel/motorola/sm6375"
+clone_if_missing "https://github.com/project-moon-gazer/android_device_motorola_sm6375-common.git" "vos" "device/motorola/sm6375-common"
+clone_if_missing "https://github.com/project-moon-gazer/proprietary_vendor_motorola_fogos.git" "cnb" "vendor/motorola/fogos"
+clone_if_missing "https://github.com/project-moon-gazer/proprietary_vendor_motorola_sm6375-common.git" "cnb" "vendor/motorola/sm6375-common"
+clone_if_missing "https://github.com/project-moon-gazer/android_kernel_motorola_sm6375.git" "Benihime" "kernel/motorola/sm6375"
 # Additional repos
 clone_if_missing "https://github.com/LineageOS/android_hardware_motorola.git" "lineage-23.2" "hardware/motorola"
 clone_if_missing "https://github.com/LineageOS/android_hardware_samsung_slsi_nfc.git" "" "hardware/samsung_slsi/nfc"
